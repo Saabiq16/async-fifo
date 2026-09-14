@@ -1,0 +1,19 @@
+
+{
+    "DESIGN_NAME": "fifo",
+    "VERILOG_FILES": "dir::src/*.v",
+    "BASE_SDC_FILE": "dir::src/async_fifo.sdc",
+
+    "CLOCK_PORT": "wclk",
+    "CLOCK_PERIOD": 10,
+
+    "FP_CORE_UTIL": 40,
+    "RUN_HEURISTIC_DIODE_INSERTION": 1,
+    "pdk::sky130*": {
+        "FP_CORE_UTIL": 40,
+        "CLOCK_PERIOD": 10,
+        "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 10
+        }
+    }
+}
