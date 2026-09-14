@@ -277,13 +277,9 @@ The layout represents the physical implementation of the FIFO design using the S
 
 ---
 
-# 📊 Implementation Reports
+## 📊 Implementation Results
 
-OpenLane-generated implementation results and analysis are documented in:
-
-```text
-reports/openLane_results.md
-```
+For detailed synthesis, timing, placement, routing, and physical verification results, see the **[OpenLane Implementation Report](reports/openlane_results.md)**.
 
 The report contains information related to:
 
